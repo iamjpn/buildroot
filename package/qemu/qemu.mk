@@ -221,7 +221,6 @@ define QEMU_CONFIGURE_CMDS
 			--disable-vhost-crypto \
 			--disable-vhost-user-blk-server \
 			--disable-virtfs \
-			--disable-virtiofsd \
 			--disable-whpx \
 			--disable-xen \
 			--enable-attr \
@@ -386,7 +385,6 @@ define HOST_QEMU_CONFIGURE_CMDS
 		--disable-selinux \
 		--disable-vde \
 		--disable-vhost-user-blk-server \
-		--disable-virtiofsd \
 		--disable-vnc-jpeg \
 		--disable-png \
 		--disable-vnc-sasl \
